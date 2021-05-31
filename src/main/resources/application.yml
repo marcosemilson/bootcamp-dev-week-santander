@@ -8,10 +8,6 @@ spring:
     url: postgres://ysgqirspgrfktd:ff3b129570e39b592b98e0469cf5a7f19aaff8178f8511615682bfe7ca7d9329@ec2-18-214-195-34.compute-1.amazonaws.com:5432/d8goueatoedfk1
     username: ysgqirspgrfktd
     password: ff3b129570e39b592b98e0469cf5a7f19aaff8178f8511615682bfe7ca7d9329
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.H2Dialect
